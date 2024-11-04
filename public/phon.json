@@ -1,0 +1,46 @@
+[
+  {
+    "product_id": 5,
+    "product_title": "iPhone 13",
+    "product_image": "https://i.ibb.co.com/GRscVLm/mackbook.jpg",
+    "category": "Phones",
+    "price": 999,
+    "description": "Latest iPhone model with improved camera and performance.",
+    "Specification": ["5G Enabled", "128GB Storage", "Super Retina XDR Display"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 6,
+    "product_title": "Samsung Galaxy S21",
+    "product_image": "https://i.ibb.co.com/GRscVLm/mackbook.jpg",
+    "category": "Phones",
+    "price": 899,
+    "description": "Flagship Samsung smartphone with high-quality display and camera.",
+    "Specification": ["5G Enabled", "128GB Storage", "Dynamic AMOLED 2X"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 7,
+    "product_title": "phone ",
+    "product_image": "https://i.ibb.co.com/mSGJCB7/onplus.jpg",
+    "category": "Phones",
+    "price": 799,
+    "description": "Smartphone with Google's latest AI technology and camera enhancements.",
+    "Specification": ["5G Enabled", "128GB Storage", "90Hz Smooth Display"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 8,
+    "product_title": "onplus",
+    "product_image": "https://i.ibb.co.com/mSGJCB7/onplus.jpg",
+    "category": "Phones",
+    "price": 969,
+    "description": "High-performance smartphone with ultra-fast charging.",
+    "Specification": ["5G Enabled", "256GB Storage", "120Hz Fluid AMOLED Display"],
+    "availability": false,
+    "rating": 4.6
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "product_id": 9,
+    "product_title": "MacBook Air M2",
+    "product_image": "https://i.ibb.co/g3K3vQS/mb-14.jpg",
+    "category": "MacBooks",
+    "price": 1200,
+    "description": "Ultra-thin laptop powered by Apple’s M2 chip.",
+    "Specification": [
+      "8GB RAM",
+      "256GB SSD",
+      "M2 Chip",
+      "13-inch Retina Display"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 10,
+    "product_title": "MacBook Pro M1 Pro",
+    "product_image": "https://i.ibb.co/GRscVLm/mackbook.jpg",
+    "category": "MacBooks",
+    "price": 2000,
+    "description": "Professional-grade laptop with M1 Pro chip and exceptional battery life.",
+    "Specification": [
+      "16GB RAM",
+      "512GB SSD",
+      "M1 Pro Chip",
+      "14-inch Retina Display"
+    ],
+    "availability": true,
+    "rating": 4.9
+  }
+]

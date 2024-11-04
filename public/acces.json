@@ -1,0 +1,62 @@
+
+
+
+
+
+[
+  {
+    "product_id": 14,
+    "product_title": "Logitech MX Master 3",
+    "product_image": "https://i.ibb.co/W2fx9rn/app-watch.jpg",
+    "category": "Accessories",
+    "price": 99,
+    "description": "Ergonomic wireless mouse with advanced control options.",
+    "Specification": ["Wireless", "USB-C Rechargeable", "Customizable Buttons"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 15,
+    "product_title": "Anker USB-C Hub",
+    "product_image": "https://i.ibb.co/3CSJKV6/3.jpg",
+    "category": "Accessories",
+    "price": 59,
+    "description": "Multi-functional USB-C hub with HDMI and USB 3.0 ports.",
+    "Specification": ["HDMI Output", "3 USB-A Ports", "SD Card Reader"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 16,
+    "product_title": "SanDisk Extreme Portable SSD",
+    "product_image": "https://i.ibb.co/KqnxcLj/ssd.jpg",
+    "category": "Accessories",
+    "price": 140,
+    "description": "Rugged and fast external SSD for quick file transfers.",
+    "Specification": ["1TB Storage", "USB-C", "Water-Resistant"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 17,
+    "product_title": "Apple Magic Keyboard",
+    "product_image": "https://i.ibb.co/N9k6FFW/keyboa.jpg",
+    "category": "Accessories",
+    "price": 99,
+    "description": "Wireless keyboard with a sleek design and comfortable typing.",
+    "Specification": ["Wireless", "Rechargeable Battery", "Compatible with Mac"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 18,
+    "product_title": "Microsoft Surface Pen",
+    "product_image": "https://i.ibb.co/xCBKL20/pen.jpg",
+    "category": "Accessories",
+    "price": 99,
+    "description": "Precision pen for Surface devices with tilt for shading.",
+    "Specification": ["4096 Pressure Points", "Tilt Support", "Magnetically Attaches"],
+    "availability": true,
+    "rating": 4.7
+  }
+]

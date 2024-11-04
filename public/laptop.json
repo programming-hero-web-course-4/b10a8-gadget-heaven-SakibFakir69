@@ -1,0 +1,46 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "Dell XPS 13",
+    "product_image": "https://i.ibb.co.com/g3K3vQS/mb-14.jpg",
+    "category": "Laptops",
+    "price": 1200,
+    "description": "Compact and powerful laptop with 13-inch display.",
+    "Specification": ["8GB RAM", "512GB SSD", "Intel Core i7", "13-inch FHD display"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 2,
+    "product_title": "HP Spectre x360",
+    "product_image": "https://i.ibb.co.com/g3K3vQS/mb-14.jpg",
+    "category": "Laptops",
+    "price": 1400,
+    "description": "2-in-1 laptop with sleek design and touchscreen.",
+    "Specification": ["16GB RAM", "1TB SSD", "Intel Core i7", "15-inch 4K display"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 3,
+    "product_title": "7sd",
+    "product_image": "https://i.ibb.co.com/g3K3vQS/mb-14.jpg",
+    "category": "Laptops",
+    "price": 1500,
+    "description": "Business laptop with a lightweight, durable design.",
+    "Specification": ["16GB RAM", "1TB SSD", "Intel Core i7", "14-inch FHD display"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 4,
+    "product_title": "Asus ZenBook 14",
+    "product_image": "https://i.ibb.co.com/GRscVLm/mackbook.jpg",
+    "category": "Laptops",
+    "price": 1100,
+    "description": "Ultra-slim laptop with stunning design and performance.",
+    "Specification": ["8GB RAM", "512GB SSD", "AMD Ryzen 5", "14-inch FHD display"],
+    "availability": true,
+    "rating": 4.4
+  }
+]

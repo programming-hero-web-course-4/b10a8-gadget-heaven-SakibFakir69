@@ -1,0 +1,200 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "Dell XPS 13",
+    "product_image": "https://i.ibb.co.com/g3K3vQS/mb-14.jpg",
+    "category": "Laptops",
+    "price": 1200,
+    "description": "Compact and powerful laptop with 13-inch display.",
+    "Specification": ["8GB RAM", "512GB SSD", "Intel Core i7", "13-inch FHD display"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 2,
+    "product_title": "HP Spectre x360",
+    "product_image": "https://i.ibb.co.com/g3K3vQS/mb-14.jpg",
+    "category": "Laptops",
+    "price": 1400,
+    "description": "2-in-1 laptop with sleek design and touchscreen.",
+    "Specification": ["16GB RAM", "1TB SSD", "Intel Core i7", "15-inch 4K display"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 3,
+    "product_title": "7sd",
+    "product_image": "https://i.ibb.co.com/g3K3vQS/mb-14.jpg",
+    "category": "Laptops",
+    "price": 1500,
+    "description": "Business laptop with a lightweight, durable design.",
+    "Specification": ["16GB RAM", "1TB SSD", "Intel Core i7", "14-inch FHD display"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 4,
+    "product_title": "Asus ZenBook 14",
+    "product_image": "https://i.ibb.co.com/GRscVLm/mackbook.jpg",
+    "category": "Laptops",
+    "price": 1100,
+    "description": "Ultra-slim laptop with stunning design and performance.",
+    "Specification": ["8GB RAM", "512GB SSD", "AMD Ryzen 5", "14-inch FHD display"],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 5,
+    "product_title": "iPhone 13",
+    "product_image": "https://i.ibb.co.com/GRscVLm/mackbook.jpg",
+    "category": "Phones",
+    "price": 999,
+    "description": "Latest iPhone model with improved camera and performance.",
+    "Specification": ["5G Enabled", "128GB Storage", "Super Retina XDR Display"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 6,
+    "product_title": "Samsung Galaxy S21",
+    "product_image": "https://i.ibb.co.com/GRscVLm/mackbook.jpg",
+    "category": "Phones",
+    "price": 899,
+    "description": "Flagship Samsung smartphone with high-quality display and camera.",
+    "Specification": ["5G Enabled", "128GB Storage", "Dynamic AMOLED 2X"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 7,
+    "product_title": "phone ",
+    "product_image": "https://i.ibb.co.com/mSGJCB7/onplus.jpg",
+    "category": "Phones",
+    "price": 799,
+    "description": "Smartphone with Google's latest AI technology and camera enhancements.",
+    "Specification": ["5G Enabled", "128GB Storage", "90Hz Smooth Display"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 8,
+    "product_title": "onplus",
+    "product_image": "https://i.ibb.co.com/mSGJCB7/onplus.jpg",
+    "category": "Phones",
+    "price": 969,
+    "description": "High-performance smartphone with ultra-fast charging.",
+    "Specification": ["5G Enabled", "256GB Storage", "120Hz Fluid AMOLED Display"],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": 9,
+    "product_title": "MacBook Air M2",
+    "product_image": "https://i.ibb.co.com/g3K3vQS/mb-14.jpg",
+    "category": "MacBooks",
+    "price": 1200,
+    "description": "Ultra-thin laptop powered by Apple’s M2 chip.",
+    "Specification": ["8GB RAM", "256GB SSD", "M2 Chip", "13-inch Retina Display"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 10,
+    "product_title": "https://i.ibb.co.com/g3K3vQS/mb-14.jpg",
+    "product_image": "https://i.ibb.co.com/GRscVLm/mackbook.jpg",
+    "category": "MacBooks",
+    "price": 2000,
+    "description": "Professional-grade laptop with M1 Pro chip and exceptional battery life.",
+    "Specification": ["16GB RAM", "512GB SSD", "M1 Pro Chip", "14-inch Retina Display"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 11,
+    "product_title": "Apple Watch Series 7",
+    "product_image": "https://i.ibb.co.com/KFK4DyF/app-watch.jpg",
+    "category": "Smart Watches",
+    "price": 399,
+    "description": "Advanced smartwatch with fitness tracking and notifications.",
+    "Specification": ["GPS", "ECG Monitor", "Always-On Retina Display"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 12,
+    "product_title": "Samsung Galaxy Watch 4",
+    "product_image": "https://i.ibb.co.com/WkLQzGK/s-22-ultra.jpg",
+    "category": "Smart Watches",
+    "price": 350,
+    "description": "Smartwatch with body composition analysis and fitness tracking.",
+    "Specification": ["Heart Rate Monitor", "GPS", "Blood Oxygen Monitoring"],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 13,
+    "product_title": "Fitbit Versa 3",
+    "product_image": "https://i.ibb.co.com/W2fx9rn/app-watch.jpg",
+    "category": "Smart Watches",
+    "price": 229,
+    "description": "Smartwatch with built-in GPS, heart rate monitor, and Alexa.",
+    "Specification": ["GPS", "Heart Rate Tracking", "6+ Days Battery"],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": 14,
+    "product_title": "Logitech MX Master 3",
+    "product_image": "https://i.ibb.co.com/W2fx9rn/app-watch.jpg",
+    "category": "Accessories",
+    "price": 99,
+    "description": "Ergonomic wireless mouse with advanced control options.",
+    "Specification": ["Wireless", "USB-C Rechargeable", "Customizable Buttons"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 15,
+    "product_title": "Anker USB-C Hub",
+    "product_image": "https://i.ibb.co.com/3CSJKV6/3.jpg",
+    "category": "Accessories",
+    "price": 59,
+    "description": "Multi-functional USB-C hub with HDMI and USB 3.0 ports.",
+    "Specification": ["HDMI Output", "3 USB-A Ports", "SD Card Reader"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 16,
+    "product_title": "SanDisk Extreme Portable SSD",
+    "product_image": "https://i.ibb.co.com/KqnxcLj/ssd.jpg",
+    "category": "Accessories",
+    "price": 140,
+    "description": "Rugged and fast external SSD for quick file transfers.",
+    "Specification": ["1TB Storage", "USB-C", "Water-Resistant"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 17,
+    "product_title": "Apple Magic Keyboard",
+    "product_image": "https://i.ibb.co.com/N9k6FFW/keyboa.jpg",
+    "category": "Accessories",
+    "price": 99,
+    "description": "Wireless keyboard with a sleek design and comfortable typing.",
+    "Specification": ["Wireless", "Rechargeable Battery", "Compatible with Mac"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 18,
+    "product_title": "Microsoft Surface Pen",
+    "product_image": "https://i.ibb.co.com/xCBKL20/pen.jpg",
+    "category": "Accessories",
+    "price": 99,
+    "description": "Precision pen for Surface devices with tilt for shading.",
+    "Specification": ["4096 Pressure Points", "Tilt Support", "Magnetically Attaches"],
+    "availability": true,
+    "rating": 4.7
+  }
+]

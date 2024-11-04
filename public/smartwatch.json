@@ -1,0 +1,35 @@
+[
+  {
+    "product_id": 11,
+    "product_title": "Apple Watch Series 7",
+    "product_image": "https://i.ibb.co/KFK4DyF/app-watch.jpg",
+    "category": "Smart Watches",
+    "price": 399,
+    "description": "Advanced smartwatch with fitness tracking and notifications.",
+    "Specification": ["GPS", "ECG Monitor", "Always-On Retina Display"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 12,
+    "product_title": "Samsung Galaxy Watch 4",
+    "product_image": "https://i.ibb.co/WkLQzGK/s-22-ultra.jpg",
+    "category": "Smart Watches",
+    "price": 350,
+    "description": "Smartwatch with body composition analysis and fitness tracking.",
+    "Specification": ["Heart Rate Monitor", "GPS", "Blood Oxygen Monitoring"],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 13,
+    "product_title": "Fitbit Versa 3",
+    "product_image": "https://i.ibb.co/W2fx9rn/app-watch.jpg",
+    "category": "Smart Watches",
+    "price": 229,
+    "description": "Smartwatch with built-in GPS, heart rate monitor, and Alexa.",
+    "Specification": ["GPS", "Heart Rate Tracking", "6+ Days Battery"],
+    "availability": true,
+    "rating": 4.3
+  }
+]
