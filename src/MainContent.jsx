@@ -1,23 +1,24 @@
+import React, { createContext } from "react";
+import Banner from "./bannerandNav/Banner";
+import Footer from "./Footer/Footer";
+import { Outlet } from "react-router-dom";
+import Contextapi from "./Contextapi";
 
-
-import React from 'react'
-import Banner from './bannerandNav/Banner'
-import Footer from './Footer/Footer'
-import { Outlet } from 'react-router-dom'
 
 function MainContent() {
   return (
     <div>
-        <Banner/>
+
+      <Contextapi>
+        <Banner />
         <div>
-          
-          <Outlet/>
-            
+          <Outlet />
         </div>
-        <Footer/>
-      
+        <Footer />
+      </Contextapi>
+
     </div>
-  )
+  );
 }
 
-export default MainContent
+export default MainContent;

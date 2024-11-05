@@ -1,9 +1,14 @@
-import React, { useEffect, useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import React, { createContext, useContext, useEffect, useState } from "react";
+import { useActionData, useLoaderData, useParams } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Cart from "../Dashboardpage/Cart";
+
+
+
 
 import Rating from "react-rating";
+import { MyContext } from "../Contextapi";
 function Details() {
   const { product_id } = useParams();
   const id = parseInt(product_id);
@@ -22,13 +27,36 @@ function Details() {
     rating,
   } = finddata;
 
-  const hadneladdcart = () => {
-    toast.success("Add to cart Succesfully");
-    console.log("show");
-  };
+  // onClick={()=> {addtoWhillist(finddata); toast.success(" Add toWishlist Done")}}
+
+  // here to pass to dashboard 
+  /// cart 
+  /// here pass id 
+  /// use id find data 
+  /// add to use spread oprator 
+  /// sort data and purches to clear all
+
+
+  const {cart , setcart} = useContext(MyContext);
+
+
+
+  const handelcart = (item)=>{
+    const items = [...cart , item];
+    setcart(items);
+    toast.success('cart to cart succesfully')
+  }
+
+
+
+
 
   return (
     <div>
+
+      
+
+
       <div className=" ">
         <div>
           <div
@@ -80,13 +108,23 @@ function Details() {
 
               <div className=" space-x-5">
                 <button
-                  className="bg-blue-500 px-6 py-2 rounded-md"
-                  onClick={hadneladdcart}
+                  className="bg-blue-500 px-6 py-2 rounded-md" 
+
+
+                  onClick={()=>handelcart(finddata)}
+               
+        
+              
                 >
                   Add cart <i class="ri-shopping-cart-2-line"></i>{" "}
                 </button>
 
-                <button className="rounded-full border-2  p-2 mt-2">
+                <button className="rounded-full border-2  p-2 mt-2"
+              
+                
+                >
+
+
                   <i class="ri-heart-3-line"></i>
                 </button>
               </div>
@@ -96,8 +134,13 @@ function Details() {
         <div className="h-[200px]"></div>
       </div>
       <ToastContainer />
+
+
+
+      
     </div>
   );
 }
+
 
 export default Details;

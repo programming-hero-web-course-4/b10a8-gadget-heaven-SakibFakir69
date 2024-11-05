@@ -22,8 +22,9 @@ function Banner() {
             <Link to="home">Home</Link>
             <Link to="static">Statices</Link>
             <Link to="dashboard">DashBorad</Link>
+            <Link>Make a free comonenet</Link>
 
-            <li>Dashboard</li>
+
           </div>
           <div>
             <i class="ri-heart-3-fill"></i>

@@ -17,79 +17,87 @@ import Acces from "./Sidebar/Acces.jsx";
 import ShowallProducts from "./Sidebar/ShowallProducts.jsx";
 
 import Details from "./Details/Details.jsx";
+import Cart from "./Dashboardpage/Cart.jsx";
+import Wishlist from "./Dashboardpage/Wishlist.jsx";
+
+
+
 
 const route = createBrowserRouter([
   {
     path: "/",
     element: <MainContent />,
     errorElement: <Errorpage />,
-    children :    
-    [
+    children: [
       {
-        path : '/home',
-        element : <Homebar/>,
-        children :[
+        path: "/home",
+        element: <Homebar />,
+        children: [
           {
-            path : 'phone',
-            element : <Phone/>,
-            loader : ()=> fetch('/phon.json')
+            path: "phone",
+            element: <Phone />,
+            loader: () => fetch("/phon.json"),
           },
           {
-            path : 'laptop',
-            element : <Laptop/>,
-            loader :()=> fetch('/laptop.json')
+            path: "laptop",
+            element: <Laptop />,
+            loader: () => fetch("/laptop.json"),
           },
           {
-            path : 'mackbook',
-            element : <Mackbook/>,
-            loader : ()=> fetch('/macbook.json')
+            path: "mackbook",
+            element: <Mackbook />,
+            loader: () => fetch("/macbook.json"),
           },
           {
-            path : 'smartwatch',
-            element : <Smartwatch/>,
-            loader : ()=> fetch('/smartwatch.json')
+            path: "smartwatch",
+            element: <Smartwatch />,
+            loader: () => fetch("/smartwatch.json"),
           },
           {
-            path : "acces",
-            element : <Acces/>,
-            loader : ()=> fetch('/acces.json')
+            path: "acces",
+            element: <Acces />,
+            loader: () => fetch("/acces.json"),
           },
           {
-            path : 'showall',
-            element : <ShowallProducts/>,
-            loader : ()=> fetch('/data.json')
+            path: "showall",
+            element: <ShowallProducts />,
+            loader: () => fetch("/data.json"),
           },
-         
         ],
-       
-        
       },
-     
-    
 
       {
-        path : '/static',
-        element : <Static/>
+        path: "/static",
+        element: <Static />,
       },
       {
-        path : '/dashboard',
-        element : <Dashboard/>
+        path: "/dashboard",
+        element: <Dashboard />,
+        children: [
+          {
+            path: "cart",
+            element: <Cart />,
+          },
+          {
+            path: "Wishlist",
+            element: <Wishlist />,
+          
+          },
+        ],
       },
       {
-        path : 'details/:product_id',
-        element : <Details/>,
-        loader :()=> fetch('/data.json')
-      }
-
-
-    ]
-    
-
+        path: "details/:product_id",
+        element: <Details />,
+        loader: () => fetch("/data.json"),
+      },
+    ],
   },
 ]);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={route} />
+
+      <RouterProvider router={route} />
+   
   </StrictMode>
 );
