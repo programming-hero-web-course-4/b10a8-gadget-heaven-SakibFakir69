@@ -11,7 +11,7 @@ function Dashboard() {
   const active = path==='/dashboard/cart';
   console.log(active);
 
-  
+
 
 
   return (
@@ -26,12 +26,12 @@ function Dashboard() {
           </p>
         </div>
         <div className="text-center mt-2 flex space-x-4 justify-center ">
-          <button className={ `${active ? 'bg-white px-6 py-2 rounded-full text-xl' : 'bg-green-500 px-6 py-2 rounded-full text-xl'}`}>
+          <button className={ `${active ? 'bg-white px-6 py-2 rounded-full text-xl' : 'border-2 px-6 py-2 rounded-full text-xl'}`}>
 
             <Link to="cart" className="p-4">Cart</Link>
           </button>
         
-          <button className={ `${!active ? 'bg-white px-6 py-2 rounded-full text-xl' : 'bg-green-500 px-6 py-2 rounded-full text-xl'}`}>
+          <button className={ `${!active ? 'bg-white px-6 py-2 rounded-full text-xl' : 'border-2 px-6 py-2 rounded-full text-xl'}`}>
             <Link to='Wishlist'>Wishlist</Link>
 
           </button>

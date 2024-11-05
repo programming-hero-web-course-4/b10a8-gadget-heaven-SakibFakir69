@@ -37,14 +37,28 @@ function Details() {
   /// sort data and purches to clear all
 
 
-  const {cart , setcart} = useContext(MyContext);
+  const {cart , setcart, wlist, setwlist , counter, setcounter , counter2, setcounter2} = useContext(MyContext);
+
 
 
 
   const handelcart = (item)=>{
     const items = [...cart , item];
     setcart(items);
-    toast.success('cart to cart succesfully')
+    toast.success('cart to cart succesfully');
+
+    setcounter(prev => prev+1);
+  };
+
+
+  const handellist = (item)=>{
+
+    const allitems = [...wlist , item];
+    setwlist(allitems)
+    console.log(allitems);
+    setcounter2( prev => prev+1);
+  
+    toast.success('Whilist add succesfully')
   }
 
 
@@ -78,7 +92,7 @@ function Details() {
               <img src={product_image} className="border-2 w-full rounded-md" />
             </div>
             <div className="-mt-10">
-              <p className="text-2xl font-semibold mb-2">{product_title}</p>
+              <p className="text-2xl font-semibold mb-2 mt-4">{product_title}</p>
               <p className="text-xl font-bold mb-2"> price :{price}$</p>
               <button className="text-xl border-2 rounded-full p-2 px-4 py-1 bg-green-200 border-green-500 mb-2">
                 Stock
@@ -120,6 +134,7 @@ function Details() {
                 </button>
 
                 <button className="rounded-full border-2  p-2 mt-2"
+                onClick={()=> handellist(finddata)}
               
                 
                 >
@@ -132,6 +147,7 @@ function Details() {
           </section>
         </div>
         <div className="h-[200px]"></div>
+
       </div>
       <ToastContainer />
 

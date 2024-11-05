@@ -1,11 +1,21 @@
 
 
-import React from 'react'
+import React, { useContext } from 'react'
+import { MyContext } from '../Contextapi'
 
+import Wlistapi from './dash2/Wlistapi'
 function Wishlist() {
+
+  const {wlist} = useContext(MyContext);
+
+  
   return (
     <div>
-        <h1>This is Wishlist</h1>
+  
+      {
+        wlist.map((item,key)=> <Wlistapi data={item} key={key}/>)
+      }
+       
 
     </div>
   )
