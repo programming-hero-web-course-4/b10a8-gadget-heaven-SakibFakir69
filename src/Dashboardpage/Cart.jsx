@@ -35,7 +35,7 @@ function Cart() {
     setTimeout(() => {
       nav("/")
       
-    }, 1500);
+    }, 1000);
     
     console.log("done")
   };
