@@ -72,7 +72,8 @@ function Cart() {
             <div class="modal" role="dialog" id="my_modal_8">
               <div class="modal-box" className="text-center bg-green-300 p-4 rounded-md ">
                 <h3 class="text-lg font-bold">Congratulate!</h3>
-                <p class="py-4">This modal works with anchor links</p>
+                <p class="py-4">Your payment succesfull</p>
+                <p>Thanks you!</p>
                 <div class="modal-action">
                   <a href="#" class="btn">
                     {/* <button>Close</button> */}
