@@ -14,7 +14,7 @@ function CartShow({ data }) {
 
 
 
-      <div className="flex p-4 border-2 gap-4 mt-4 shadow-lg rounded-lg ">
+      <div className="flex p-4 border-2 gap-4 mt-4 shadow-lg rounded-lg justify-between">
         <div>
           <img src={product_image}  className="rounded-md w-full"/>
         </div>

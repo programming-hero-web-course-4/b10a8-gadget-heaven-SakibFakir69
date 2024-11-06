@@ -19,9 +19,10 @@ import ShowallProducts from "./Sidebar/ShowallProducts.jsx";
 import Details from "./Details/Details.jsx";
 import Cart from "./Dashboardpage/Cart.jsx";
 import Wishlist from "./Dashboardpage/Wishlist.jsx";
+import UncomApi from "./Dashboardpage/dash2/UncomApi.jsx";
 
 
-
+import Uncoming from "./NavMenu/Uncoming.jsx";
 
 const route = createBrowserRouter([
   {
@@ -30,7 +31,7 @@ const route = createBrowserRouter([
     errorElement: <Errorpage />,
     children: [
       {
-        path: "/home",
+        path: "/",
         element: <Homebar />,
         children: [
           {
@@ -59,7 +60,7 @@ const route = createBrowserRouter([
             loader: () => fetch("/acces.json"),
           },
           {
-            path: "showall",
+            path: "/",
             element: <ShowallProducts />,
             loader: () => fetch("/data.json"),
           },
@@ -83,6 +84,7 @@ const route = createBrowserRouter([
             element: <Wishlist />,
           
           },
+
         ],
       },
       {
@@ -90,6 +92,11 @@ const route = createBrowserRouter([
         element: <Details />,
         loader: () => fetch("/data.json"),
       },
+      {
+        path : 'uncoming',
+        element : <Uncoming/>,
+        loader : ()=> fetch('acces.json')
+      }
     ],
   },
 ]);

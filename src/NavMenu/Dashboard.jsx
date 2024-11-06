@@ -1,4 +1,5 @@
 import React, { act } from "react";
+import { Helmet } from "react-helmet";
 import { Outlet, Link, useLocation } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 
@@ -16,6 +17,9 @@ function Dashboard() {
 
   return (
     <div>
+      <Helmet>
+        <title>Dashboard</title>
+      </Helmet>
       <div className="bg-custome-color p-8">
         <div className="text-center p-6">
           <h1 className="text-3xl font-bold text-white">Dashboard</h1>

@@ -5,10 +5,10 @@ function Showall({ data }) {
   const { price, product_image, product_title, product_id } = data;
 
   return (
-    <div className="shadow-lg border-2 mt-2 p-2 space-y-3">
-      <img src={product_image} />
+    <div className="shadow-lg border-2 mt-2 p-2 space-y-3 rounded-md">
+      <img src={product_image} className="rounded-md"/>
 
-      <div className="flex flex-col space-y-3 p-2">
+      <div className="flex flex-col space-y-3 p-2 text-center">
         <p className="text-2xl font-semibold">{product_title}</p>
 
         <p className=" ">Price :{price}$</p>

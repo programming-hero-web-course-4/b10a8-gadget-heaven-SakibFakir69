@@ -8,7 +8,7 @@ function Laptopapi({data}) {
     const {price , product_image,product_title,product_id} = data ;
   return (
     <div className='shadow-lg border-2 mt-2 p-2'>
-        <h1>This is laptop</h1>
+        <img src={product_image}/>
         <div className="flex flex-col space-y-3 p-2">
         <p className="text-2xl font-semibold">{product_title}</p>
 

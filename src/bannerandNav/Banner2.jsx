@@ -5,7 +5,7 @@ function Banner2() {
     <div className="" style={{ background: "rgb(149, 56, 226)" }}>
       <section >
         <div className="flex text-center justify-center flex-col space-y-3 ">
-          <h1 className="md:text-4xl text-xl text-white font-bold">
+          <h1 className="md:text-4xl text-xl text-white font-bold mt-4">
             Upgrade Your Tech Accessorize with <br /> Gadget Heaven Accessories
           </h1>
           <p className="text-gray-200">

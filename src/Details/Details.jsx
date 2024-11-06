@@ -35,8 +35,6 @@ function Details() {
   /// use id find data 
   /// add to use spread oprator 
   /// sort data and purches to clear all
-
-
   const {cart , setcart, wlist, setwlist , counter, setcounter , counter2, setcounter2} = useContext(MyContext);
 
 
@@ -66,11 +64,9 @@ function Details() {
 
 
   return (
-    <div>
+    <div className="">
 
-      
-
-
+    
       <div className=" ">
         <div>
           <div
@@ -87,7 +83,7 @@ function Details() {
             </p>
           </div>
 
-          <section className="flex justify-center items-center border-2 gap-4  absolute bg-white  shadow-lg rounded-md p-8 -mt-20 ml-72 my-20">
+          <section className="flex justify-center items-center border-2 gap-4  absolute bg-white  shadow-lg rounded-md p-8 -mt-20 ml-72 my-20 ">
             <div className="flex justify-center w-9/12">
               <img src={product_image} className="border-2 w-full rounded-md" />
             </div>
@@ -146,7 +142,7 @@ function Details() {
             </div>
           </section>
         </div>
-        <div className="h-[200px]"></div>
+        <div className="h-[350px]"></div>
 
       </div>
       <ToastContainer />
