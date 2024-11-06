@@ -25,7 +25,7 @@ function Banner2() {
       <section className="mt-32">
         <div className=" flex justify-center items-center mt-36 w-full md:mt-56 ">
           <img
-            src="../assets/banner.jpg"
+            src="banner.jpg"
             className="  md:w-2/5 w-2/3 absolute object-contain rounded-md shadow-lg p-3 border-t border-l-2 border-r-2 flex items-center  backdrop-blur-md"
           ></img>
         </div>
